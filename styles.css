@@ -7,7 +7,7 @@
 
 header {
     background-color: #1F2937;
-    height: 300px;
+    height: auto;
 
 }
 
@@ -47,6 +47,8 @@ a {
 .header-section {
     display: flex;
     justify-content: space-between;
+    height: auto;
+    background-color: #1F2937;
 }
 
 .header-text {
@@ -70,9 +72,10 @@ a {
     border-radius: 5px;
     color: #F9FAF8;
     width: 25%;
-    height: 25%;
+    height: 15%;
     font-size: 18px;
     margin-top: 1%;
+
 }
 
 button:hover {
@@ -87,4 +90,5 @@ button:hover {
 .header-img p {
     padding: 50px;
     background-color: #808285;
+    margin-bottom: 100px;
 }
