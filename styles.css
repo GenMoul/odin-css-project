@@ -23,7 +23,7 @@ ul {
 
 .header-logo {
     display: flex;
-    width: 500px;
+    flex: 1 1 500px;
     margin-left: 15%;
     margin-right: auto;
     font-size: 24px;
@@ -67,7 +67,7 @@ a {
 }
 
 .header-text button {
-    background-color: #2264c0;
+    background-color: #3882F6;
     border: none;
     border-radius: 5px;
     color: #F9FAF8;
@@ -91,4 +91,159 @@ button:hover {
     padding: 50px;
     background-color: #808285;
     margin-bottom: 100px;
+}
+
+.section-center {
+    background-color: #F9FAF8;
+    height: auto;
+}
+
+.section-center h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.illustration div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.paragraph-illustration {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    gap: 50px;
+}
+
+.paragraph-illustration p {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.section-footer-of-main {
+    background-color: #E5E7EB;
+    height: auto;
+}
+
+.text-of-footer-main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 130px 300px 0 300px;
+}
+
+.signature {
+    margin: 0 300px 0 300px;
+    text-align: end;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    margin: 50px 300px;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-align: center;
+    padding: 5px 0;
 }
